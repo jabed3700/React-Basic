@@ -1,9 +1,13 @@
 
 import React from "react";
-
+import Profile from "./proflie";
 class App extends React.Component{
     render(){
-        return <h1>Hello react, you are awesome</h1>
+        return (
+            <div className="App">
+                <Profile/>
+            </div>
+        )
     }
 }
 
